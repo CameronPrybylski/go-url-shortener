@@ -19,16 +19,6 @@ func main(){
 	for state != "quit"{
 		state = homeScreen()
 	}
-
-
-	
-	// Set up the routes
-	//http.HandleFunc("/shorten", shortenHandler)
-	//http.HandleFunc("/", redirectHandler)
-
-	// Start the server
-	//log.Fatal(http.ListenAndServe(":8080", nil))
-	
 	
 }
 
